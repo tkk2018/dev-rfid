@@ -30,9 +30,7 @@ They are implemented according to EPC Gen2V2 and is designed to be compliant wit
 2. TAM1 - authentication only, protected by AES key0.
    For example, we have a common area among of our products. Then we can use this area for proof of origin.
    This can be used to authenticate a group of people as long as using the same key0.
-   Logically, the speed is faster than TAM2.
 
 3. TAM2 - reading the untraceable data, protected by AES key1.
    Normally, the key1 is unique for each tag to protect user data.
    Because of that, TAM2 can only read one tag at one time.
-   Logically, the speed is slower than TAM1.
